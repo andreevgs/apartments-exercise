@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+html * {
+    /*border: 1px solid black;*/
+}
+
+body, h1, h2, h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 24px 0 20px 54px;
+}
+
+section.intro {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 44px;
+}
+
+section.intro .info {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 27px #00000024;
+    border-top-right-radius: 76px;
+    border-bottom-right-radius: 76px;
+    padding: 27px 150px 30px 74px;
+}
+
+section.intro .info h1 {
+    text-align: left;
+    font: normal normal bold 88px/117px "Playfair Display";
+    margin-bottom: 38px;
+}
+
+section.intro .info h1 .light {
+    color: #2289FF;
+}
+
+section.intro .info h1 .dark {
+    color: #186AA5;
+}
+
+section.intro .info h3 {
+    font: normal normal bold 20px/29px "Noto Sans KR";
+    color: #303030;
+}
+
+section.intro .cover {
+    width: 70%;
+    border-radius: 48px;
+}
+
+section.cards .section_header {
+    padding: 100px 0 70px 0;
+}
+
+section.cards .section_header h1 {
+    text-align: center;
+    font: normal normal bold 48px/64px "Playfair Display";
+    color: #14395B;
+    text-shadow: 0 3px 6px #FFFFFF29;
+    margin-bottom: 27px;
+}
+
+section.cards .section_header h2 {
+    text-align: center;
+    font: normal normal normal 24px/35px "Noto Sans KR";
+    color: #8D9598;
+    opacity: 0.79;
+}
+
+section.cards .section_cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section.cards .section_cards .card {
+    width: 500px;
+    padding: 20px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 15px;
+    margin-bottom: 26px;
+}
+
+section.cards .section_cards .card .card_photo {
+    height: 277px;
+    background: url('/assets/building2.png') center center no-repeat;
+    background-size: cover;
+    margin-bottom: 14px;
+}
+
+section.cards .section_cards .card .card_photo .stickers {
+    padding: 20px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.cards .section_cards .card .card_photo .stickers .distance {
+    padding: 9px 11px;
+    background: #000000 0 0 no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.4;
+    font: normal normal bold 15px/18px "Sen";
+    color: #FFFFFF;
+}
+
+section.cards .section_cards .card .card_photo .stickers .type {
+    padding: 8px 18px;
+    background: #78C720 0 0 no-repeat padding-box;
+    border-radius: 3px;
+    font: normal normal normal 11px/16px "Noto Sans KR";
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+section.cards .section_cards .card .location {
+    margin-bottom: 14px;
+    font: normal normal normal 17px/25px "Noto Sans KR";
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+section.cards .section_cards .card .card_content {
+    padding-right: 28px;
+}
+
+section.cards .section_cards .card .card_content h2 {
+    font: normal normal bold 25px/30px "Sen";
+    color: #1E62E8;
+    margin-bottom: 10px;
+}
+
+section.cards .section_cards .card .card_content h3 {
+    font: normal normal bold 22px/26px "Sen";
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+section.cards .section_cards .card .card_content p {
+    font: normal normal normal 14px/20px "Noto Sans KR";
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+
+section.cards .section_cards .card .card_meta {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_info {
+    padding: 8px 12px;
+    display: flex;
+    background: #f6f8fb 0 0 no-repeat padding-box;
+    border-radius: 4px;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_info .card_meta_info_column {
+    margin-right: 27px;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_info .card_meta_info_column:last-child {
+    margin-right: 0;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_info .card_meta_info_column div:first-child {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_info .card_meta_info_column div:last-child {
+    font: normal normal normal 14px/20px "Noto Sans KR";
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_info .card_meta_info_column > div span {
+    margin-right: 6px;
+    font: normal normal bold 16px/24px "Noto Sans KR";
+    color: #1E62E8;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_controls {
+    display: flex;
+    align-items: center;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_controls .button {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBEBEB 0 0 no-repeat padding-box;
+    border-radius: 6px;
+    margin-right: 9px;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_controls .button:last-child {
+    margin-right: 0;
+}
+
+section.cards .section_cards .card .card_meta .card_meta_controls .favorite {
+    background: #FE7847 0% 0% no-repeat padding-box;
+}
