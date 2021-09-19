@@ -220,3 +220,53 @@ section.cards .section_cards .card .card_meta .card_meta_controls .button:last-c
 section.cards .section_cards .card .card_meta .card_meta_controls .favorite {
     background: #FE7847 0% 0% no-repeat padding-box;
 }
+
+section.rates {
+    background: #F4F7FA 0% 0% no-repeat padding-box;
+}
+
+section.rates .rates_header {
+    padding: 70px 0 60px 0;
+}
+
+section.rates .rates_header h1 {
+    text-align: center;
+    font: normal normal bold 48px/64px "Playfair Display";
+    color: #14395B;
+    text-shadow: 0 3px 6px #FFFFFF29;
+    margin-bottom: 60px;
+}
+
+section.rates .rates_header .chart_toggle_bar {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 253px;
+}
+
+section.rates .rates_header .chart_toggle_bar button {
+    background: none;
+    border: none;
+    font: normal normal normal 25px/36px "Noto Sans KR";
+    color: #000000;
+    opacity: 0.79;
+    cursor: pointer;
+}
+
+section.rates .graph_chart_tabs {
+    position: relative;
+    height: 420px;
+}
+
+section.rates .graph_chart_tabs .chart_tab {
+    height: 370px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+section.rates .graph_chart_tabs .chart_tab.active_tab {
+    visibility: visible;
+}
