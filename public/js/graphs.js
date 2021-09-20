@@ -35,6 +35,7 @@ const drawCharts = (graphsData, pieData, pieColors) => {
         graphsDataArray.push({label: key, y: value})
     }
     const pieDataArray = []
+
     for (const [key, value] of Object.entries(pieData)) {
         const pieData = {
             y: value,
