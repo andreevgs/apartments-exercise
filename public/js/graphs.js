@@ -78,7 +78,7 @@ const drawCharts = (graphsData, pieData, pieColors) => {
     $("#pie_container").CanvasJSChart(pieOptions);
 }
 
-const getGraphs = (url) => {
+const getAndDrowGraphs = (url) => {
     $.ajax({
         url: url,
         type: "POST",

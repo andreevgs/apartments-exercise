@@ -3,9 +3,9 @@ $('body').on('click', '#randomize_locally', (e) => {
 });
 
 $('body').on('click', '#get_from_server', (e) => {
-    getGraphs('https://api.demoleap.com/exercise');
+    getAndDrowGraphs('https://api.demoleap.com/exercise');
 });
 
 $('body').on('click', '#get_from_node', (e) => {
-    getGraphs('http://localhost:3000/api/graphs');
+    getAndDrowGraphs('https://test-exercise-app.herokuapp.com/api/graphs');
 });

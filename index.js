@@ -8,7 +8,7 @@ const corsOptions = {
     origin: '*'
 };
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3002;
 
 app.use(cors(corsOptions));
 app.use(express.static(path.join(__dirname, 'public')));
