@@ -6,7 +6,9 @@
 ```
 git clone https://github.com/unicode256/test_exercise
 ```
-Then open MySQL Workbench and create BUYCAR database:
+```
+cd test_exercise
+```
 ```
 npm install
 ```
