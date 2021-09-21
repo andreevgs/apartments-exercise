@@ -14,10 +14,10 @@ npm install
 ```
 To run app:
 ```
-npm start
+npm run start
 ```
 To run app in dev mode with autorerun:
 ```
-npm start:dev
+npm run start:dev
 ```
 After this steps application will be able at `localhost:3002`.
